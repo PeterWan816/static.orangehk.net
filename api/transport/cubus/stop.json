@@ -1,14 +1,13 @@
 {
   "type": "StopList",
   "version": "1.0",
-  "generated_timestamp": "2026-09-02T12:00:00+08:00",
+  "generated_timestamp": "2026-09-22T01:10:53+08:00",
   "data": [
     {
-      "stop": "CUHK_1502822176",
       "stop_id": "CUHK_1502822176",
       "name_en": "New Asia College",
       "name_tc": "新亞書院",
-      "name_sc": "新亞書院",
+      "name_sc": "新亚书院",
       "lat": 22.4212709,
       "long": 114.2075587,
       "rmk_en": "",
@@ -17,11 +16,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519421",
       "stop_id": "CUHK_1716519421",
       "name_en": "Wu Yee Sun College (Downward)",
       "name_tc": "伍宜孫書院（下行）",
-      "name_sc": "伍宜孫書院（下行）",
+      "name_sc": "伍宜孙书院（下行）",
       "lat": 22.4211993,
       "long": 114.2035212,
       "rmk_en": "",
@@ -30,11 +28,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519434",
       "stop_id": "CUHK_1716519434",
       "name_en": "Fung King-hey Building",
       "name_tc": "馮景禧樓",
-      "name_sc": "馮景禧樓",
+      "name_sc": "冯景禧楼",
       "lat": 22.4198637,
       "long": 114.2030318,
       "rmk_en": "",
@@ -43,11 +40,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519472",
       "stop_id": "CUHK_1716519472",
       "name_en": "University Station",
       "name_tc": "大學站",
-      "name_sc": "大學站",
+      "name_sc": "大学站",
       "lat": 22.4145368,
       "long": 114.2102205,
       "rmk_en": "",
@@ -56,11 +52,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519477",
       "stop_id": "CUHK_1716519477",
       "name_en": "Shaw College",
       "name_tc": "逸夫書院",
-      "name_sc": "逸夫書院",
+      "name_sc": "逸夫书院",
       "lat": 22.4224859,
       "long": 114.2013149,
       "rmk_en": "",
@@ -69,11 +64,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519481",
       "stop_id": "CUHK_1716519481",
       "name_en": "University Sports Centre",
       "name_tc": "大學體育中心",
-      "name_sc": "大學體育中心",
+      "name_sc": "大学体育中心",
       "lat": 22.4178117,
       "long": 114.2104816,
       "rmk_en": "",
@@ -82,7 +76,6 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519492",
       "stop_id": "CUHK_1716519492",
       "name_en": "Postgraduate Hall 1",
       "name_tc": "研究生宿舍⼀座",
@@ -95,11 +88,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519514",
       "stop_id": "CUHK_1716519514",
       "name_en": "United College (Downward)",
       "name_tc": "聯合書院 (下行)",
-      "name_sc": "聯合書院 (下行)",
+      "name_sc": "联合书院 (下行)",
       "lat": 22.4203017,
       "long": 114.20534,
       "rmk_en": "",
@@ -108,11 +100,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519519",
       "stop_id": "CUHK_1716519519",
       "name_en": "University Administration Building",
       "name_tc": "大學行政樓",
-      "name_sc": "大學行政樓",
+      "name_sc": "大学行政楼",
       "lat": 22.418806,
       "long": 114.2053581,
       "rmk_en": "",
@@ -121,11 +112,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519526",
       "stop_id": "CUHK_1716519526",
       "name_en": "Chung Chi Teaching Blocks",
       "name_tc": "崇基教學樓",
-      "name_sc": "崇基教學樓",
+      "name_sc": "崇基教学楼",
       "lat": 22.4160358,
       "long": 114.208359,
       "rmk_en": "",
@@ -134,7 +124,6 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_1716519535",
       "stop_id": "CUHK_1716519535",
       "name_en": "Sir Run Run Shaw Hall",
       "name_tc": "邵逸夫堂",
@@ -147,11 +136,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035049978",
       "stop_id": "CUHK_2035049978",
       "name_en": "Yasumoto International Academic Park",
       "name_tc": "康本國際學術園",
-      "name_sc": "康本國際學術園",
+      "name_sc": "康本国际学术园",
       "lat": 22.4159729,
       "long": 114.2108317,
       "rmk_en": "",
@@ -160,11 +148,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035104642",
       "stop_id": "CUHK_2035104642",
       "name_en": "Science Centre",
       "name_tc": "科學館",
-      "name_sc": "科學館",
+      "name_sc": "科学馆",
       "lat": 22.4198305,
       "long": 114.2073418,
       "rmk_en": "",
@@ -173,11 +160,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035104643",
       "stop_id": "CUHK_2035104643",
       "name_en": "S.H. Ho College",
       "name_tc": "善衡書院",
-      "name_sc": "善衡書院",
+      "name_sc": "善衡书院",
       "lat": 22.4180416,
       "long": 114.2098498,
       "rmk_en": "",
@@ -186,11 +172,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035104644",
       "stop_id": "CUHK_2035104644",
       "name_en": "Wu Yee Sun College (Upward)",
       "name_tc": "伍宜孫書院（上行）",
-      "name_sc": "伍宜孫書院（上行）",
+      "name_sc": "伍宜孙书院（上行）",
       "lat": 22.4213306,
       "long": 114.2034714,
       "rmk_en": "",
@@ -199,11 +184,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035133243",
       "stop_id": "CUHK_2035133243",
       "name_en": "C. W. Chu College",
       "name_tc": "敬文書院",
-      "name_sc": "敬文書院",
+      "name_sc": "敬文书院",
       "lat": 22.4255566,
       "long": 114.2062179,
       "rmk_en": "",
@@ -212,7 +196,6 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035133252",
       "stop_id": "CUHK_2035133252",
       "name_en": "Residence 15",
       "name_tc": "十五苑",
@@ -225,7 +208,6 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035133259",
       "stop_id": "CUHK_2035133259",
       "name_en": "Residence 10",
       "name_tc": "十苑",
@@ -238,11 +220,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035204908",
       "stop_id": "CUHK_2035204908",
       "name_en": "United College (Upward)",
       "name_tc": "聯合書院 (上行)",
-      "name_sc": "聯合書院 (上行)",
+      "name_sc": "联合书院 (上行)",
       "lat": 22.4203899,
       "long": 114.205394,
       "rmk_en": "",
@@ -251,11 +232,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035204920",
       "stop_id": "CUHK_2035204920",
       "name_en": "United College Staff Residence",
       "name_tc": "聯合苑",
-      "name_sc": "聯合苑",
+      "name_sc": "联合苑",
       "lat": 22.4232591,
       "long": 114.2051303,
       "rmk_en": "",
@@ -264,11 +244,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2035204924",
       "stop_id": "CUHK_2035204924",
       "name_en": "Chan Chun Ha Hostel",
       "name_tc": "陳震夏宿舍",
-      "name_sc": "陳震夏宿舍",
+      "name_sc": "陈震夏宿舍",
       "lat": 22.4218119,
       "long": 114.2046121,
       "rmk_en": "",
@@ -277,11 +256,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2036051433",
       "stop_id": "CUHK_2036051433",
       "name_en": "University MTR Station Piazza",
       "name_tc": "港鐵大學站廣場",
-      "name_sc": "港鐵大學站廣場",
+      "name_sc": "港铁大学站广场",
       "lat": 22.4138075,
       "long": 114.2094368,
       "rmk_en": "",
@@ -290,11 +268,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_2036051434",
       "stop_id": "CUHK_2036051434",
       "name_en": "New Asia Circle",
       "name_tc": "新亞坊",
-      "name_sc": "新亞坊",
+      "name_sc": "新亚坊",
       "lat": 22.4210723,
       "long": 114.2076468,
       "rmk_en": "",
@@ -303,11 +280,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5265944661",
       "stop_id": "CUHK_5265944661",
       "name_en": "Campus Circuit East",
       "name_tc": "環迴東站",
-      "name_sc": "環迴東站",
+      "name_sc": "环回东站",
       "lat": 22.4192816,
       "long": 114.2129727,
       "rmk_en": "",
@@ -316,11 +292,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5265944663",
       "stop_id": "CUHK_5265944663",
       "name_en": "Campus Circuit East",
       "name_tc": "環迴東站",
-      "name_sc": "環迴東站",
+      "name_sc": "环回东站",
       "lat": 22.4192822,
       "long": 114.2129002,
       "rmk_en": "",
@@ -329,11 +304,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5277753655",
       "stop_id": "CUHK_5277753655",
       "name_en": "Campus Circuit North",
       "name_tc": "環迴北站",
-      "name_sc": "環迴北站",
+      "name_sc": "环回北站",
       "lat": 22.4256279,
       "long": 114.2063729,
       "rmk_en": "",
@@ -342,11 +316,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5277753685",
       "stop_id": "CUHK_5277753685",
       "name_en": "C. W. Chu College",
       "name_tc": "敬文書院",
-      "name_sc": "敬文書院",
+      "name_sc": "敬文书院",
       "lat": 22.4256621,
       "long": 114.2061584,
       "rmk_en": "",
@@ -355,11 +328,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5413637589",
       "stop_id": "CUHK_5413637589",
       "name_en": "University Administration Building",
       "name_tc": "大學行政樓",
-      "name_sc": "大學行政樓",
+      "name_sc": "大学行政楼",
       "lat": 22.4187975,
       "long": 114.2055284,
       "rmk_en": "",
@@ -368,11 +340,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5413654368",
       "stop_id": "CUHK_5413654368",
       "name_en": "Shaw College",
       "name_tc": "逸夫書院",
-      "name_sc": "逸夫書院",
+      "name_sc": "逸夫书院",
       "lat": 22.4224655,
       "long": 114.2012818,
       "rmk_en": "",
@@ -381,11 +352,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5413654375",
       "stop_id": "CUHK_5413654375",
       "name_en": "United College (Downward)",
       "name_tc": "聯合書院 (下行)",
-      "name_sc": "聯合書院 (下行)",
+      "name_sc": "联合书院 (下行)",
       "lat": 22.4203021,
       "long": 114.2054651,
       "rmk_en": "",
@@ -394,11 +364,10 @@
       "data_timestamp": "2026-09-02T00:00:00+08:00"
     },
     {
-      "stop": "CUHK_5414326180",
       "stop_id": "CUHK_5414326180",
       "name_en": "University MTR Station Piazza",
       "name_tc": "港鐵大學站廣場",
-      "name_sc": "港鐵大學站廣場",
+      "name_sc": "港铁大学站广场",
       "lat": 22.4139575,
       "long": 114.2097625,
       "rmk_en": "",
