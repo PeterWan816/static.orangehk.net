@@ -63,7 +63,7 @@ def clean_and_encode_geometry(geom):
     """Safely extracts 2D/3D coordinates and encodes them into Google Polyline strings."""
     encoded_lines = []
     
-    # Handle LineString, MultiLineString, and 3D variants
+    # Handle LineString, MultiLineString, and 3D variants (LineStringZ)
     if geom.geom_type in ["LineString", "LineStringZ"]:
         lines = [geom]
     elif hasattr(geom, "geoms"):
@@ -102,7 +102,7 @@ def clean_and_encode_geometry(geom):
 
 def convert_fgdb_to_google_json(
     fgdb_path="FB_ROUTE.gdb",
-    output_json_path="public/api/transport/BusStopTime/bus_routes_google.json",
+    output_json_path="api/transport/BusStopTime/bus_routes_google.json",
     preferred_layer="FB_ROUTE_LINE",
 ):
     if not os.path.exists(fgdb_path):
@@ -154,7 +154,7 @@ def convert_fgdb_to_google_json(
 
         processed_routes.append(route_payload)
 
-    # Ensure output directory exists
+    # Automatically create directory structure if missing
     output_dir = os.path.dirname(output_json_path)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
