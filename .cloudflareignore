@@ -1,0 +1,6 @@
+# Ignore python scripts and system files from public deployment
+converter.py
+requirements.txt
+dataset.zip
+FB_ROUTE.gdb/
+.github/
