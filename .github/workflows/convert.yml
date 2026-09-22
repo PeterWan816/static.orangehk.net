@@ -1,0 +1,48 @@
+name: Convert HK Bus Routes
+
+on:
+  workflow_dispatch: # Allows manual run button in GitHub UI
+  schedule:
+    - cron: '0 0 * * 0' # Automatically runs every Sunday at midnight UTC
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Gives permission to push generated JSON back to repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download and Extract FGDB Data
+        run: |
+          curl -sL "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a82780505c9673c4ba128fbfed/fgdb" -o dataset.zip
+          unzip dataset.zip
+          
+          # Find extracted .gdb directory and ensure it matches 'FB_ROUTE.gdb'
+          GDB_DIR=$(find . -maxdepth 2 -type d -name "*.gdb" | head -n 1)
+          if [ -n "$GDB_DIR" ] && [ "$GDB_DIR" != "./FB_ROUTE.gdb" ]; then
+            mv "$GDB_DIR" ./FB_ROUTE.gdb
+          fi
+
+      - name: Run Converter Script
+        run: python converter.py
+
+      - name: Commit and Push Updated File
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bus_routes_google.json
+          git commit -m "Auto-update bus_routes_google.json" || echo "No changes to commit"
+          git push
