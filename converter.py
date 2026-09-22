@@ -12,7 +12,7 @@ CSDI_FGDB_URL = "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a8278050
 
 def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
     """Downloads FGDB zip safely using requests and extracts it."""
-    zip_path = "dataset.zip"
+    zip_path = "Bus_Route_FGDB.zip"
     print("1. Downloading FGDB dataset from CSDI...")
 
     headers = {
