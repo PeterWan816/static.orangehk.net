@@ -1,8 +1,51 @@
 import json
 import os
 import sys
+import zipfile
+import urllib.request
 import geopandas as gpd
 import polyline
+
+# Hong Kong CSDI FGDB Download URL
+CSDI_FGDB_URL = "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a82780505c9673c4ba128fbfed/fgdb"
+
+
+def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
+    """Downloads the FGDB zip file from CSDI and extracts it to target_dir."""
+    zip_path = "dataset.zip"
+    print(f"📥 Downloading FGDB dataset from CSDI...")
+    
+    # Download zip file with headers
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as response, open(zip_path, "wb") as out_file:
+        out_file.write(response.read())
+
+    print(f"📦 Downloaded {os.path.getsize(zip_path) / (1024 * 1024):.2f} MB. Extracting...")
+    
+    with zipfile.ZipFile(zip_path, "r") as zip_ref:
+        zip_ref.extractall(".")
+
+    # Find the extracted .gdb folder dynamically
+    extracted_gdb = None
+    for root, dirs, _ in os.walk("."):
+        for d in dirs:
+            if d.endswith(".gdb"):
+                extracted_gdb = os.path.join(root, d)
+                break
+        if extracted_gdb:
+            break
+
+    if extracted_gdb and extracted_gdb != target_dir:
+        if os.path.exists(target_dir):
+            import shutil
+            shutil.rmtree(target_dir)
+        os.rename(extracted_gdb, target_dir)
+
+    # Clean up downloaded zip file
+    if os.path.exists(zip_path):
+        os.remove(zip_path)
+
+    print(f"✔ FGDB ready at '{target_dir}'")
 
 
 def clean_and_encode_geometry(geom):
@@ -44,14 +87,12 @@ def clean_and_encode_geometry(geom):
 
 def convert_fgdb_to_google_json(
     fgdb_path="FB_ROUTE.gdb",
-    output_json_path="/api/transport/BusStopTime/bus_routes_google.json",
+    output_json_path="public/api/transport/BusStopTime/bus_routes_google.json",
     layer_name="FB_ROUTE_LINE",
 ):
+    # Auto-fetch FGDB if missing
     if not os.path.exists(fgdb_path):
-        print(
-            f"❌ Error: Folder '{fgdb_path}' not found in current directory."
-        )
-        sys.exit(1)
+        download_and_extract_fgdb(target_dir=fgdb_path)
 
     print(f"1. Reading FGDB layer '{layer_name}' from '{fgdb_path}'...")
     gdf = gpd.read_file(fgdb_path, layer=layer_name)
@@ -97,6 +138,11 @@ def convert_fgdb_to_google_json(
 
         processed_routes.append(route_payload)
 
+    # Automatically create output subdirectories if they do not exist
+    output_dir = os.path.dirname(output_json_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
     print(f"5. Saving to minified JSON file '{output_json_path}'...")
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(processed_routes, f, separators=(",", ":"))
@@ -110,4 +156,10 @@ def convert_fgdb_to_google_json(
 
 
 if __name__ == "__main__":
-    convert_fgdb_to_google_json()
+    # Allow overriding output path via CLI argument, otherwise default to public/api/...
+    target_path = (
+        sys.argv[1]
+        if len(sys.argv) > 1
+        else "public/api/transport/BusStopTime/bus_routes_google.json"
+    )
+    convert_fgdb_to_google_json(output_json_path=target_path)
