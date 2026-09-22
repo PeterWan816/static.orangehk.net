@@ -13,15 +13,14 @@ CSDI_FGDB_URL = "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a8278050
 def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
     """Downloads FGDB zip safely using requests and extracts it."""
     zip_path = "dataset.zip"
-    print("📥 Downloading FGDB dataset from CSDI...")
+    print("1. Downloading FGDB dataset from CSDI...")
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
     try:
-        # Download with stream = True to handle binary payload
-        response = requests.get(url, headers=headers, stream=True, timeout=60, verify=False)
+        response = requests.get(url, headers=headers, stream=True, timeout=60)
         response.raise_for_status()
 
         with open(zip_path, "wb") as f:
@@ -29,7 +28,7 @@ def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
                 if chunk:
                     f.write(chunk)
 
-        print(f"📦 Downloaded file size: {os.path.getsize(zip_path) / (1024 * 1024):.2f} MB. Extracting...")
+        print(f"   📦 Downloaded {os.path.getsize(zip_path) / (1024 * 1024):.2f} MB. Extracting...")
 
         with zipfile.ZipFile(zip_path, "r") as zip_ref:
             zip_ref.extractall(".")
@@ -38,7 +37,7 @@ def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
         print(f"❌ Download or Unzip Error: {e}")
         sys.exit(1)
 
-    # Find extracted .gdb folder
+    # Locate the extracted .gdb directory dynamically
     extracted_gdb = None
     for root, dirs, _ in os.walk("."):
         for d in dirs:
@@ -57,16 +56,24 @@ def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
     if os.path.exists(zip_path):
         os.remove(zip_path)
 
-    print(f"✔ FGDB ready at '{target_dir}'")
+    print(f"   ✔ FGDB ready at '{target_dir}'")
 
 
 def clean_and_encode_geometry(geom):
-    """Cleans coordinates and encodes them into Google Polyline strings."""
+    """Safely extracts 2D/3D coordinates and encodes them into Google Polyline strings."""
     encoded_lines = []
-    lines = [geom] if geom.geom_type == "LineString" else list(geom.geoms)
+    
+    # Handle LineString, MultiLineString, and 3D variants
+    if geom.geom_type in ["LineString", "LineStringZ"]:
+        lines = [geom]
+    elif hasattr(geom, "geoms"):
+        lines = list(geom.geoms)
+    else:
+        return encoded_lines
 
     for line in lines:
-        raw_coords = [(lat, lng) for lng, lat in line.coords]
+        # Extract index [1] (lat) and index [0] (lng) safely regardless of 2D or 3D tuple length
+        raw_coords = [(c[1], c[0]) for c in line.coords]
 
         # Filter out coordinates outside Hong Kong
         valid_coords = [
@@ -101,30 +108,29 @@ def convert_fgdb_to_google_json(
     if not os.path.exists(fgdb_path):
         download_and_extract_fgdb(target_dir=fgdb_path)
 
-    # Detect layers inside .gdb file dynamically
     available_layers = fiona.listlayers(fgdb_path)
-    print(f"📂 Available layers in '{fgdb_path}': {available_layers}")
+    print(f"2. Available layers in '{fgdb_path}': {available_layers}")
 
     layer_to_use = preferred_layer if preferred_layer in available_layers else available_layers[0]
-    print(f"1. Reading FGDB layer '{layer_to_use}'...")
+    print(f"3. Reading layer '{layer_to_use}'...")
 
     gdf = gpd.read_file(fgdb_path, layer=layer_to_use)
 
-    # Reproject from HK1980 Grid (EPSG:2326) to WGS84 (EPSG:4326)
+    # Force source CRS if missing, then reproject from HK1980 Grid (EPSG:2326) to WGS84 (EPSG:4326)
     if gdf.crs is None:
         gdf.set_crs(epsg=2326, inplace=True)
 
-    print("2. Reprojecting HK1980 Grid (EPSG:2326) to WGS84 Lat/Lng (EPSG:4326)...")
+    print("4. Reprojecting HK1980 Grid (EPSG:2326) to WGS84 Lat/Lng (EPSG:4326)...")
     gdf = gdf.to_crs(epsg=4326)
 
-    print("3. Simplifying line geometries...")
+    print("5. Simplifying line geometries...")
     gdf["geometry"] = gdf["geometry"].simplify(
         tolerance=0.000005, preserve_topology=True
     )
 
     processed_routes = []
 
-    print("4. Encoding polylines and constructing payload...")
+    print("6. Encoding polylines and constructing payload...")
     for _, row in gdf.iterrows():
         geom = row.geometry
         if geom is None or geom.is_empty:
@@ -148,12 +154,12 @@ def convert_fgdb_to_google_json(
 
         processed_routes.append(route_payload)
 
-    # Ensure output directories exist
+    # Ensure output directory exists
     output_dir = os.path.dirname(output_json_path)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
 
-    print(f"5. Saving to minified JSON file '{output_json_path}'...")
+    print(f"7. Saving to minified JSON file '{output_json_path}'...")
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(processed_routes, f, separators=(",", ":"))
 
@@ -169,6 +175,6 @@ if __name__ == "__main__":
     target_path = (
         sys.argv[1]
         if len(sys.argv) > 1
-        else "public/api/transport/BusStopTime/bus_routes_google.json"
+        else "api/transport/BusStopTime/bus_routes_google.json"
     )
     convert_fgdb_to_google_json(output_json_path=target_path)
