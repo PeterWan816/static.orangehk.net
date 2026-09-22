@@ -1,24 +1,19 @@
 name: Convert HK Bus Routes
 
 on:
-  workflow_dispatch: # Allows manual run button
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' # Automatically runs every Sunday at midnight UTC
+    - cron: '0 0 * * 0'
 
 jobs:
   convert:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Allows git push
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: Install System Dependencies (GDAL)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libgdal-dev gdal-bin
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,7 +26,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Converter Script
-        run: python -u converter.py public/api/transport/BusStopTime/bus_routes_google.json
+        run: python -u converter.py api/transport/BusStopTime/bus_routes_google.json
 
       - name: Commit and Push Updated File
         run: |
