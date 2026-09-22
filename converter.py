@@ -10,8 +10,8 @@ import polyline
 CSDI_FGDB_URL = "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a82780505c9673c4ba128fbfed/fgdb"
 
 
-def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
-    """Downloads FGDB zip safely using requests and extracts it."""
+def download_and_extract_fgdb(url=CSDI_FGDB_URL):
+    """Downloads Bus_Route_FGDB.zip, extracts it, and returns the path to the .gdb folder."""
     zip_path = "Bus_Route_FGDB.zip"
     print("1. Downloading FGDB dataset from CSDI...")
 
@@ -35,35 +35,43 @@ def download_and_extract_fgdb(url=CSDI_FGDB_URL, target_dir="FB_ROUTE.gdb"):
 
     except Exception as e:
         print(f"❌ Download or Unzip Error: {e}")
+        print("📁 Directory listing on error:")
+        print(os.listdir("."))
         sys.exit(1)
 
-    # Locate the extracted .gdb directory dynamically
-    extracted_gdb = None
-    for root, dirs, _ in os.walk("."):
-        for d in dirs:
-            if d.endswith(".gdb"):
-                extracted_gdb = os.path.join(root, d)
-                break
-        if extracted_gdb:
-            break
-
-    if extracted_gdb and extracted_gdb != target_dir:
-        if os.path.exists(target_dir):
-            import shutil
-            shutil.rmtree(target_dir)
-        os.rename(extracted_gdb, target_dir)
-
+    # Delete the zip file
     if os.path.exists(zip_path):
         os.remove(zip_path)
 
-    print(f"   ✔ FGDB ready at '{target_dir}'")
+    # PRINT DIRECTORY CONTENTS FOR DEBUGGING (ls equivalent)
+    print(f"📁 Extracted working directory contents (ls): {os.listdir('.')}")
+
+    # Search for extracted .gdb folder
+    gdb_path = None
+    for root, dirs, _ in os.walk("."):
+        for d in dirs:
+            if d.endswith(".gdb"):
+                gdb_path = os.path.normpath(os.path.join(root, d))
+                break
+        if gdb_path:
+            break
+
+    if gdb_path and os.path.exists(gdb_path):
+        print(f"   ✔ Found GDB folder at '{gdb_path}'")
+        return gdb_path
+
+    # If not found, print full recursive directory tree
+    print("❌ Error: No .gdb folder found after unzipping!")
+    print("📁 Recursive Directory Tree:")
+    for root, dirs, files in os.walk("."):
+        print(f"   - {root}/ -> dirs: {dirs} | files: {files[:3]}")
+    sys.exit(1)
 
 
 def clean_and_encode_geometry(geom):
     """Safely extracts 2D/3D coordinates and encodes them into Google Polyline strings."""
     encoded_lines = []
     
-    # Handle LineString, MultiLineString, and 3D variants (LineStringZ)
     if geom.geom_type in ["LineString", "LineStringZ"]:
         lines = [geom]
     elif hasattr(geom, "geoms"):
@@ -72,10 +80,8 @@ def clean_and_encode_geometry(geom):
         return encoded_lines
 
     for line in lines:
-        # Extract index [1] (lat) and index [0] (lng) safely regardless of 2D or 3D tuple length
         raw_coords = [(c[1], c[0]) for c in line.coords]
 
-        # Filter out coordinates outside Hong Kong
         valid_coords = [
             (lat, lng)
             for lat, lng in raw_coords
@@ -85,7 +91,6 @@ def clean_and_encode_geometry(geom):
         if len(valid_coords) < 2:
             continue
 
-        # Deduplicate consecutive identical points
         deduped = [valid_coords[0]]
         for pt in valid_coords[1:]:
             if (
@@ -101,12 +106,10 @@ def clean_and_encode_geometry(geom):
 
 
 def convert_fgdb_to_google_json(
-    fgdb_path="FB_ROUTE.gdb",
     output_json_path="api/transport/BusStopTime/bus_routes_google.json",
     preferred_layer="FB_ROUTE_LINE",
 ):
-    if not os.path.exists(fgdb_path):
-        download_and_extract_fgdb(target_dir=fgdb_path)
+    fgdb_path = download_and_extract_fgdb()
 
     available_layers = fiona.listlayers(fgdb_path)
     print(f"2. Available layers in '{fgdb_path}': {available_layers}")
@@ -116,7 +119,6 @@ def convert_fgdb_to_google_json(
 
     gdf = gpd.read_file(fgdb_path, layer=layer_to_use)
 
-    # Force source CRS if missing, then reproject from HK1980 Grid (EPSG:2326) to WGS84 (EPSG:4326)
     if gdf.crs is None:
         gdf.set_crs(epsg=2326, inplace=True)
 
@@ -154,7 +156,6 @@ def convert_fgdb_to_google_json(
 
         processed_routes.append(route_payload)
 
-    # Automatically create directory structure if missing
     output_dir = os.path.dirname(output_json_path)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
