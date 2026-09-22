@@ -44,7 +44,7 @@ def clean_and_encode_geometry(geom):
 
 def convert_fgdb_to_google_json(
     fgdb_path="FB_ROUTE.gdb",
-    output_json_path="bus_routes_google.json",
+    output_json_path="/api/transport/BusStopTime/bus_routes_google.json",
     layer_name="FB_ROUTE_LINE",
 ):
     if not os.path.exists(fgdb_path):
