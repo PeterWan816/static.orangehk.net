@@ -1,0 +1,19 @@
+{
+  "type": "RouteSchedule",
+  "version": "1.2",
+  "generated_timestamp": "2026-09-22T11:17:17+08:00",
+  "data": {
+    "co": "CUHK",
+    "route": "1",
+    "service_type": "1",
+    "service_start_time": "07:40:00+08:00",
+    "service_end_time": "18:55:00+08:00",
+    "departure_minutes_past_hour": [
+      10,
+      25,
+      40,
+      55
+    ],
+    "peak_rules": []
+  }
+}
