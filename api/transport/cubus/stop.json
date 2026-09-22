@@ -1,7 +1,7 @@
 {
   "type": "StopList",
   "version": "1.2",
-  "generated_timestamp": "2026-09-22T17:21:53+08:00",
+  "generated_timestamp": "2026-09-22T11:17:17+08:00",
   "data": [
     {
       "stop": "CUHK_1502822176",
@@ -13,7 +13,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519421",
@@ -25,7 +25,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519434",
@@ -37,7 +37,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519472",
@@ -49,7 +49,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519477",
@@ -61,7 +61,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519481",
@@ -73,7 +73,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519492",
@@ -85,7 +85,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519514",
@@ -97,7 +97,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519519",
@@ -109,7 +109,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519526",
@@ -121,7 +121,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_1716519535",
@@ -133,7 +133,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035049978",
@@ -145,7 +145,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035104642",
@@ -157,7 +157,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035104643",
@@ -169,7 +169,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035104644",
@@ -181,7 +181,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035133243",
@@ -193,7 +193,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035133252",
@@ -205,7 +205,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035133259",
@@ -217,7 +217,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035204908",
@@ -229,7 +229,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035204920",
@@ -241,7 +241,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2035204924",
@@ -253,19 +253,19 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2036051433",
-      "name_en": "University MTR Station Piazza",
-      "name_tc": "港鐵大學站廣場",
-      "name_sc": "港铁大学站广场",
+      "name_en": "Station Piazza",
+      "name_tc": "大學站廣場",
+      "name_sc": "大学站广场",
       "lat": 22.4138075,
       "long": 114.2094368,
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_2036051434",
@@ -277,7 +277,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5265944661",
@@ -286,10 +286,10 @@
       "name_sc": "环回东站",
       "lat": 22.4192816,
       "long": 114.2129727,
-      "rmk_en": "",
-      "rmk_tc": "",
-      "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "rmk_en": "Temporary relocation of the Huanhui East Station (downbound) and the school bus stop – Temporary relocation of Huanhui East Station (downbound).",
+      "rmk_tc": "環迴東站（下行）臨時遷移 校巴站臨時遷移 – 環迴東站（下行） 環迴東站（下行）臨時遷移",
+      "rmk_sc": "环回东站（下行）临时迁移 校巴站临时迁移 – 环回东站（下行） 环回东站（下行）临时迁移",
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5265944663",
@@ -301,7 +301,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5277753655",
@@ -313,7 +313,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5277753685",
@@ -325,7 +325,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5413637589",
@@ -337,7 +337,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5413654368",
@@ -349,7 +349,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5413654375",
@@ -361,7 +361,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     },
     {
       "stop": "CUHK_5414326180",
@@ -373,7 +373,7 @@
       "rmk_en": "",
       "rmk_tc": "",
       "rmk_sc": "",
-      "data_timestamp": "2026-09-22T00:00:00+08:00"
+      "data_timestamp": "2026-09-22T11:17:17+08:00"
     }
   ]
 }
