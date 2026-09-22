@@ -37,12 +37,12 @@ jobs:
           fi
 
       - name: Run Converter Script
-        run: python converter.py
+        run: python converter.py api/transport/BusStopTime/bus_routes_google.json
 
       - name: Commit and Push Updated File
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bus_routes_google.json
+          git add api/transport/BusStopTime/bus_routes_google.json
           git commit -m "Auto-update bus_routes_google.json" || echo "No changes to commit"
           git push
