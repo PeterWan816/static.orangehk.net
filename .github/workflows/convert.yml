@@ -1,15 +1,15 @@
 name: Convert HK Bus Routes
 
 on:
-  workflow_dispatch: # Allows manual runs
+  workflow_dispatch: # Allows manual run button
   schedule:
-    - cron: '0 0 * * 0' # Auto-runs every Sunday at midnight UTC
+    - cron: '0 0 * * 0' # Automatically runs every Sunday at midnight UTC
 
 jobs:
   convert:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed for git push
+      contents: write # Allows git push
 
     steps:
       - name: Checkout Repository
@@ -30,22 +30,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Create Destination Directory
-        run: mkdir -p public/api/transport/BusStopTime
-
-      - name: Download and Extract FGDB Data
-        run: |
-          curl -sL "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a82780505c9673c4ba128fbfed/fgdb" -o dataset.zip
-          unzip -o dataset.zip
-          
-          # Automatically detect and set the extracted .gdb directory
-          GDB_DIR=$(find . -maxdepth 2 -type d -name "*.gdb" | head -n 1)
-          if [ -n "$GDB_DIR" ] && [ "$GDB_DIR" != "./FB_ROUTE.gdb" ]; then
-            mv "$GDB_DIR" ./FB_ROUTE.gdb
-          fi
-
       - name: Run Converter Script
-        run: python converter.py public/api/transport/BusStopTime/bus_routes_google.json
+        run: python -u converter.py public/api/transport/BusStopTime/bus_routes_google.json
 
       - name: Commit and Push Updated File
         run: |
