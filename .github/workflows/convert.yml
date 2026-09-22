@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/api/transport/BusStopTime/bus_routes_google.json
+          git add api/transport/BusStopTime/bus_routes_google.json
           git commit -m "Auto-update bus_routes_google.json" || echo "No changes to commit"
           git push
