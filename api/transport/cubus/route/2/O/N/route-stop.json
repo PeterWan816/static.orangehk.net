@@ -1,7 +1,7 @@
 {
   "type": "RouteStopList",
   "version": "1.2",
-  "generated_timestamp": "2026-09-22T11:17:17+08:00",
+  "generated_timestamp": "2026-09-24T08:34:14+08:00",
   "data": [
     {
       "co": "CUHK",
@@ -15,7 +15,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -29,7 +29,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -43,7 +43,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -57,7 +57,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -71,7 +71,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -85,7 +85,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -99,7 +99,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -113,7 +113,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -127,7 +127,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -141,7 +141,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -155,7 +155,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -169,7 +169,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -177,13 +177,13 @@
       "dir": "O",
       "service_type": "2",
       "seq": 13,
-      "stop": "CUHK_1716519477",
+      "stop": "CUHK_5413654368",
       "dest_en": "UNIVERSITY STATION",
       "dest_tc": "大學站",
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -197,7 +197,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -211,7 +211,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -225,7 +225,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -239,7 +239,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -253,7 +253,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -267,7 +267,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -281,7 +281,7 @@
       "dest_sc": "大学站",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     }
   ]
 }
