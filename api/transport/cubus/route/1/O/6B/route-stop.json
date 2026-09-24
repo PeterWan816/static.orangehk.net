@@ -1,7 +1,7 @@
 {
   "type": "RouteStopList",
   "version": "1.2",
-  "generated_timestamp": "2026-09-22T11:17:17+08:00",
+  "generated_timestamp": "2026-09-24T08:34:14+08:00",
   "data": [
     {
       "co": "CUHK",
@@ -15,7 +15,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -29,7 +29,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -43,7 +43,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -57,7 +57,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -71,7 +71,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -85,7 +85,7 @@
       "dest_sc": "崇基教学楼",
       "diff_from_prev_secs": null,
       "diff_to_next_secs": null,
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     }
   ]
 }
