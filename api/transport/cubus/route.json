@@ -1,7 +1,7 @@
 {
   "type": "RouteList",
   "version": "1.2",
-  "generated_timestamp": "2026-09-22T11:17:17+08:00",
+  "generated_timestamp": "2026-09-24T08:34:14+08:00",
   "data": [
     {
       "co": "CUHK",
@@ -17,7 +17,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -33,7 +33,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -49,7 +49,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -65,7 +65,7 @@
       "rmk_en": "Special service (via Shaw Memorial Hall)",
       "rmk_tc": "特別班次 (經邵逸夫堂)",
       "rmk_sc": "特别班次 (经邵逸夫堂)",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -81,7 +81,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -97,7 +97,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -113,7 +113,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -129,7 +129,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -145,23 +145,23 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
       "route": "7",
       "bound": "O",
       "service_type": "1",
-      "orig_en": "SHAW COLLEGE",
-      "orig_tc": "逸夫書院",
-      "orig_sc": "逸夫书院",
+      "orig_en": "SHAW COLLEGE (DOWNWARD)",
+      "orig_tc": "逸夫書院 (下行)",
+      "orig_sc": "逸夫书院 (下行)",
       "dest_en": "CHUNG CHI TEACHING BLOCKS",
       "dest_tc": "崇基教學樓",
       "dest_sc": "崇基教学楼",
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -177,7 +177,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -193,7 +193,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -209,7 +209,7 @@
       "rmk_en": "Special service (via Zone 39)",
       "rmk_tc": "特別班次 (經39區)",
       "rmk_sc": "特别班次 (经39区)",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -225,7 +225,7 @@
       "rmk_en": "Regular shifts",
       "rmk_tc": "常規班次",
       "rmk_sc": "常规班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     },
     {
       "co": "CUHK",
@@ -241,7 +241,7 @@
       "rmk_en": "Special trains",
       "rmk_tc": "特別班次",
       "rmk_sc": "特别班次",
-      "data_timestamp": "2026-09-22T11:17:17+08:00"
+      "data_timestamp": "2026-09-24T08:34:14+08:00"
     }
   ]
 }
