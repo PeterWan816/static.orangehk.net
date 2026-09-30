@@ -3,7 +3,7 @@ name: Convert HK Bus Routes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 21 * * *'  # Runs daily at 5:37 AM Hong Kong Time (21:37 UTC)
+    - cron: '37 21 * * 0'  # Runs once a week on Sunday (5:37 AM HKT Monday)
 
 jobs:
   convert:
@@ -36,10 +36,10 @@ jobs:
           git commit -m "Auto-update bus_routes_google.json" || echo "No changes to commit"
           git push
 
-      - name: Deploy to Cloudflare Pages
-        if: github.repository == 'YOUR_GITHUB_USERNAME/YOUR_REPO_NAME'  # Replace with actual username/repo
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy . --project-name=static-orangehk-net
+     # - name: Deploy to Cloudflare Pages
+     #   if: github.repository == 'YOUR_GITHUB_USERNAME/YOUR_REPO_NAME'  # Replace with actual username/repo
+     #   uses: cloudflare/wrangler-action@v3
+     #   with:
+     #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+     #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+     #     command: pages deploy . --project-name=static-orangehk-net
