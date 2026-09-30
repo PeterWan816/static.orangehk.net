@@ -3,7 +3,7 @@ name: Convert HK Bus Routes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 21 * * *'  # Runs daily at 5:30 AM Hong Kong Time (21:30 UTC)
+    - cron: '37 21 * * *'  # Runs daily at 5:37 AM Hong Kong Time (21:37 UTC)
 
 jobs:
   convert:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Python Dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -28,7 +28,7 @@ jobs:
       - name: Run Converter Script
         run: python -u converter.py api/transport/BusStopTime/bus_routes_google.json
 
-      - name: Commit and Push Updated File to GitHub
+      - name: Commit Updated Open Data to GitHub
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -37,10 +37,9 @@ jobs:
           git push
 
       - name: Deploy to Cloudflare Pages
-        if: github.repository == 'your-github-username/your-repo-name'  # Replace with your actual username/repo
-        uses: cloudflare/pages-action@v1
+        if: github.repository == 'YOUR_GITHUB_USERNAME/YOUR_REPO_NAME'  # Replace with actual username/repo
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'static-orangehk-net'
-          directory: '.'
+          command: pages deploy . --project-name=static-orangehk-net
