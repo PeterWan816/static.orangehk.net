@@ -42,5 +42,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'your-cloudflare-pages-project-name'
+          projectName: 'static-orangehk-net'
           directory: '.'
