@@ -1,37 +1,37 @@
 {
   "type": "NoticeList",
   "version": "1.2",
-  "generated_timestamp": "2026-10-15T21:35:53+08:00",
+  "generated_timestamp": "2026-10-16T21:35:54+08:00",
   "data": [
     {
       "notice_id": "N_001",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "School bus service suspended. School bus service suspended. School bus service suspended.",
+      "notice_tc": "Temporary relocation of toll shuttle bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:20.776Z",
-      "date": "2026.10.17"
+      "last_crawled": "2026-10-16T20:10:21.260Z",
+      "date": "2026.10.20"
     },
     {
       "notice_id": "N_002",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "The station is temporarily closed.",
+      "notice_tc": "School bus service suspended. School bus service suspended. School bus service suspended.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:21.974Z",
+      "last_crawled": "2026-10-16T20:10:21.288Z",
       "date": "2026.10.17"
     },
     {
       "notice_id": "N_003",
       "status": "ACTIVE",
-      "matched_stop": "CUHK_5265944661",
-      "notice_tc": "Temporary relocation of the East Loop Station (northbound) and the school bus stop.",
+      "matched_stop": "",
+      "notice_tc": "The station is temporarily closed.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:23.218Z",
-      "date": "2026.09.28"
+      "last_crawled": "2026-10-16T20:10:21.321Z",
+      "date": "2026.10.17"
     },
     {
       "notice_id": "N_004",
@@ -40,58 +40,58 @@
       "notice_tc": "Temporary relocation of the East Loop Station (northbound) and the school bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:23.219Z",
-      "date": "2026.09.19"
+      "last_crawled": "2026-10-16T20:10:21.352Z",
+      "date": "2026.09.28"
     },
     {
       "notice_id": "N_005",
       "status": "ACTIVE",
-      "matched_stop": "",
-      "notice_tc": "Temporary relocation of toll minibus stop.",
+      "matched_stop": "CUHK_5265944661",
+      "notice_tc": "Temporary relocation of the East Loop Station (northbound) and the school bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:24.282Z",
-      "date": "2026.09.15"
+      "last_crawled": "2026-10-16T20:10:21.354Z",
+      "date": "2026.09.19"
     },
     {
       "notice_id": "N_006",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "Notice of Suspension of \"Employee Self-Organized Commute Bus Service\"",
+      "notice_tc": "Temporary relocation of toll minibus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:25.335Z",
-      "date": "2026.09.04"
+      "last_crawled": "2026-10-16T20:10:21.382Z",
+      "date": "2026.09.15"
     },
     {
       "notice_id": "N_007",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "Latest school bus service schedule",
+      "notice_tc": "Notice of Suspension of \"Employee Self-Organized Commute Bus Service\"",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.382Z",
-      "date": "2026.09.01"
+      "last_crawled": "2026-10-16T20:10:21.414Z",
+      "date": "2026.09.04"
     },
     {
       "notice_id": "N_008",
+      "status": "ACTIVE",
+      "matched_stop": "",
+      "notice_tc": "Latest school bus service schedule",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.443Z",
+      "date": "2026.09.01"
+    },
+    {
+      "notice_id": "N_009",
       "status": "COMPLETED",
       "matched_stop": "CUHK_1716519477",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.384Z",
+      "last_crawled": "2026-10-16T20:10:21.444Z",
       "date": "2026.08.31"
-    },
-    {
-      "notice_id": "N_009",
-      "status": "COMPLETED",
-      "matched_stop": "",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.384Z",
-      "date": "2026.08.29"
     },
     {
       "notice_id": "N_010",
@@ -100,68 +100,68 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.385Z",
+      "last_crawled": "2026-10-16T20:10:21.446Z",
       "date": "2026.08.29"
     },
     {
       "notice_id": "N_011",
       "status": "COMPLETED",
+      "matched_stop": "",
+      "notice_tc": "",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.447Z",
+      "date": "2026.08.29"
+    },
+    {
+      "notice_id": "N_012",
+      "status": "COMPLETED",
       "matched_stop": "CUHK_2035104643",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.386Z",
+      "last_crawled": "2026-10-16T20:10:21.449Z",
       "date": "2026.08.15"
     },
     {
-      "notice_id": "N_012",
+      "notice_id": "N_013",
       "status": "COMPLETED",
       "matched_stop": "CUHK_1716519472",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:26.387Z",
+      "last_crawled": "2026-10-16T20:10:21.450Z",
       "date": "2026.08.08"
     },
     {
-      "notice_id": "N_013",
+      "notice_id": "N_014",
       "status": "ACTIVE",
       "matched_stop": "",
       "notice_tc": "Ho Sin Hang Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Hang Engineering Building Ho Sin Hang Engineering Building Bus Stop Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.502Z",
+      "last_crawled": "2026-10-16T20:10:21.481Z",
       "date": "2026.08.03"
     },
     {
-      "notice_id": "N_014",
+      "notice_id": "N_015",
       "status": "COMPLETED",
       "matched_stop": "CUHK_2035104643",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.503Z",
+      "last_crawled": "2026-10-16T20:10:21.482Z",
       "date": "2026.08.01"
     },
     {
-      "notice_id": "N_015",
+      "notice_id": "N_016",
       "status": "COMPLETED",
       "matched_stop": "CUHK_1716519477",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.504Z",
+      "last_crawled": "2026-10-16T20:10:21.483Z",
       "date": "2026.07.24"
-    },
-    {
-      "notice_id": "N_016",
-      "status": "COMPLETED",
-      "matched_stop": "",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.505Z",
-      "date": "2026.07.11"
     },
     {
       "notice_id": "N_017",
@@ -170,28 +170,28 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.506Z",
-      "date": "2026.05.30"
+      "last_crawled": "2026-10-16T20:10:21.484Z",
+      "date": "2026.07.11"
     },
     {
       "notice_id": "N_018",
-      "status": "COMPLETED",
-      "matched_stop": "CUHK_1716519477",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.507Z",
-      "date": "2026.03.27"
-    },
-    {
-      "notice_id": "N_019",
       "status": "COMPLETED",
       "matched_stop": "",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.508Z",
-      "date": "2026.02.27"
+      "last_crawled": "2026-10-16T20:10:21.486Z",
+      "date": "2026.05.30"
+    },
+    {
+      "notice_id": "N_019",
+      "status": "COMPLETED",
+      "matched_stop": "CUHK_1716519477",
+      "notice_tc": "",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.487Z",
+      "date": "2026.03.27"
     },
     {
       "notice_id": "N_020",
@@ -200,58 +200,58 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.508Z",
+      "last_crawled": "2026-10-16T20:10:21.488Z",
       "date": "2026.02.27"
     },
     {
       "notice_id": "N_021",
       "status": "COMPLETED",
+      "matched_stop": "",
+      "notice_tc": "",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.489Z",
+      "date": "2026.02.27"
+    },
+    {
+      "notice_id": "N_022",
+      "status": "COMPLETED",
       "matched_stop": "CUHK_1716519477",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.509Z",
+      "last_crawled": "2026-10-16T20:10:21.490Z",
       "date": "2026.02.06"
     },
     {
-      "notice_id": "N_022",
+      "notice_id": "N_023",
       "status": "COMPLETED",
       "matched_stop": "",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.509Z",
+      "last_crawled": "2026-10-16T20:10:21.491Z",
       "date": "2026.01.17"
     },
     {
-      "notice_id": "N_023",
+      "notice_id": "N_024",
       "status": "COMPLETED",
       "matched_stop": "CUHK_1716519477",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.510Z",
+      "last_crawled": "2026-10-16T20:10:21.492Z",
       "date": "2026.01.14"
     },
     {
-      "notice_id": "N_024",
+      "notice_id": "N_025",
       "status": "COMPLETED",
       "matched_stop": "CUHK_2035133259",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.511Z",
+      "last_crawled": "2026-10-16T20:10:21.492Z",
       "date": "2026.01.08"
-    },
-    {
-      "notice_id": "N_025",
-      "status": "COMPLETED",
-      "matched_stop": "",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.512Z",
-      "date": "2025.12.24"
     },
     {
       "notice_id": "N_026",
@@ -260,7 +260,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.513Z",
+      "last_crawled": "2026-10-16T20:10:21.494Z",
       "date": "2025.12.24"
     },
     {
@@ -270,38 +270,38 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.514Z",
-      "date": "2025.11.30"
+      "last_crawled": "2026-10-16T20:10:21.495Z",
+      "date": "2025.12.24"
     },
     {
       "notice_id": "N_028",
-      "status": "COMPLETED",
-      "matched_stop": "CUHK_2035133259",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.515Z",
-      "date": "2025.11.29"
-    },
-    {
-      "notice_id": "N_029",
       "status": "COMPLETED",
       "matched_stop": "",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.516Z",
-      "date": "2025.11.23"
+      "last_crawled": "2026-10-16T20:10:21.495Z",
+      "date": "2025.11.30"
+    },
+    {
+      "notice_id": "N_029",
+      "status": "COMPLETED",
+      "matched_stop": "CUHK_2035133259",
+      "notice_tc": "",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.496Z",
+      "date": "2025.11.29"
     },
     {
       "notice_id": "N_030",
       "status": "COMPLETED",
-      "matched_stop": "CUHK_1716519535",
+      "matched_stop": "",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.517Z",
-      "date": "2025.11.06"
+      "last_crawled": "2026-10-16T20:10:21.497Z",
+      "date": "2025.11.23"
     },
     {
       "notice_id": "N_031",
@@ -310,47 +310,57 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.518Z",
+      "last_crawled": "2026-10-16T20:10:21.498Z",
       "date": "2025.11.06"
     },
     {
       "notice_id": "N_032",
       "status": "COMPLETED",
+      "matched_stop": "CUHK_1716519535",
+      "notice_tc": "",
+      "notice_en_translated": "",
+      "notice_sc_translated": "",
+      "last_crawled": "2026-10-16T20:10:21.499Z",
+      "date": "2025.11.06"
+    },
+    {
+      "notice_id": "N_033",
+      "status": "COMPLETED",
       "matched_stop": "CUHK_2035133243",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.519Z",
+      "last_crawled": "2026-10-16T20:10:21.500Z",
       "date": "2025.10.25"
     },
     {
-      "notice_id": "N_033",
+      "notice_id": "N_034",
       "status": "COMPLETED",
       "matched_stop": "",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.519Z",
+      "last_crawled": "2026-10-16T20:10:21.500Z",
       "date": "2025.10.24"
     },
     {
-      "notice_id": "N_034",
+      "notice_id": "N_035",
       "status": "COMPLETED",
       "matched_stop": "CUHK_1716519477",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.520Z",
+      "last_crawled": "2026-10-16T20:10:21.501Z",
       "date": "2025.10.23"
     },
     {
-      "notice_id": "N_035",
+      "notice_id": "N_036",
       "status": "COMPLETED",
       "matched_stop": "CUHK_2035133243",
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-15T20:10:27.521Z",
+      "last_crawled": "2026-10-16T20:10:21.502Z",
       "date": "2025.10.18"
     }
   ]
