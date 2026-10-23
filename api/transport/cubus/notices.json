@@ -1,7 +1,7 @@
 {
   "type": "NoticeList",
   "version": "1.2",
-  "generated_timestamp": "2026-10-22T21:35:52+08:00",
+  "generated_timestamp": "2026-10-23T21:35:52+08:00",
   "data": [
     {
       "notice_id": "N_001",
@@ -10,7 +10,7 @@
       "notice_tc": "Temporary relocation of University Station Plaza & Kangbenyuan Station School Bus Stops – University Station Plaza & Kangbenyuan Station Temporary relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:27.771Z",
+      "last_crawled": "2026-10-23T20:10:23.467Z",
       "date": "2026.10.23"
     },
     {
@@ -20,7 +20,7 @@
       "notice_tc": "The paid shuttle bus stop is temporarily closed.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:29.224Z",
+      "last_crawled": "2026-10-23T20:10:24.531Z",
       "date": "2026.10.23"
     },
     {
@@ -30,7 +30,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:30.509Z",
+      "last_crawled": "2026-10-23T20:10:25.650Z",
       "date": "2026.10.22"
     },
     {
@@ -40,7 +40,7 @@
       "notice_tc": "Temporary relocation of toll shuttle bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:31.836Z",
+      "last_crawled": "2026-10-23T20:10:26.815Z",
       "date": "2026.10.20"
     },
     {
@@ -50,7 +50,7 @@
       "notice_tc": "Temporary relocation of the East Loop Station (northbound) and the school bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:33.222Z",
+      "last_crawled": "2026-10-23T20:10:28.047Z",
       "date": "2026.09.28"
     },
     {
@@ -60,7 +60,7 @@
       "notice_tc": "Temporary relocation of toll minibus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:34.524Z",
+      "last_crawled": "2026-10-23T20:10:29.179Z",
       "date": "2026.09.15"
     },
     {
@@ -70,7 +70,7 @@
       "notice_tc": "Notice of Suspension of \"Employee Self-Organized Commute Bus Service\"",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:35.712Z",
+      "last_crawled": "2026-10-23T20:10:30.354Z",
       "date": "2026.09.04"
     },
     {
@@ -80,7 +80,7 @@
       "notice_tc": "Latest school bus service schedule",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:38.573Z",
+      "last_crawled": "2026-10-23T20:10:31.419Z",
       "date": "2026.09.01"
     },
     {
@@ -90,7 +90,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:38.591Z",
+      "last_crawled": "2026-10-23T20:10:31.421Z",
       "date": "2026.08.31"
     },
     {
@@ -100,7 +100,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:38.867Z",
+      "last_crawled": "2026-10-23T20:10:31.422Z",
       "date": "2026.08.29"
     },
     {
@@ -110,7 +110,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:38.903Z",
+      "last_crawled": "2026-10-23T20:10:31.425Z",
       "date": "2026.08.29"
     },
     {
@@ -120,7 +120,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:38.966Z",
+      "last_crawled": "2026-10-23T20:10:31.437Z",
       "date": "2026.08.15"
     },
     {
@@ -130,7 +130,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:39.139Z",
+      "last_crawled": "2026-10-23T20:10:31.440Z",
       "date": "2026.08.08"
     },
     {
@@ -140,7 +140,7 @@
       "notice_tc": "Ho Sin Hang Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Hang Engineering Building Ho Sin Hang Engineering Building Bus Stop Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.528Z",
+      "last_crawled": "2026-10-23T20:10:32.557Z",
       "date": "2026.08.03"
     },
     {
@@ -150,7 +150,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.532Z",
+      "last_crawled": "2026-10-23T20:10:32.567Z",
       "date": "2026.08.01"
     },
     {
@@ -160,7 +160,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.540Z",
+      "last_crawled": "2026-10-23T20:10:32.583Z",
       "date": "2026.07.24"
     },
     {
@@ -170,7 +170,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.762Z",
+      "last_crawled": "2026-10-23T20:10:32.608Z",
       "date": "2026.07.11"
     },
     {
@@ -180,7 +180,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.852Z",
+      "last_crawled": "2026-10-23T20:10:32.610Z",
       "date": "2026.05.30"
     },
     {
@@ -190,7 +190,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.875Z",
+      "last_crawled": "2026-10-23T20:10:32.612Z",
       "date": "2026.03.27"
     },
     {
@@ -200,7 +200,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:40.995Z",
+      "last_crawled": "2026-10-23T20:10:32.632Z",
       "date": "2026.02.27"
     },
     {
@@ -210,7 +210,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.065Z",
+      "last_crawled": "2026-10-23T20:10:32.637Z",
       "date": "2026.02.27"
     },
     {
@@ -220,7 +220,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.210Z",
+      "last_crawled": "2026-10-23T20:10:32.639Z",
       "date": "2026.02.06"
     },
     {
@@ -230,7 +230,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.265Z",
+      "last_crawled": "2026-10-23T20:10:32.649Z",
       "date": "2026.01.17"
     },
     {
@@ -240,7 +240,7 @@
       "notice_tc": "Shaw College Station Temporary Relocation School Bus Stop Temporary Relocation – Shaw College Station Shaw College Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.279Z",
+      "last_crawled": "2026-10-23T20:10:32.656Z",
       "date": "2026.01.14"
     },
     {
@@ -250,7 +250,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.308Z",
+      "last_crawled": "2026-10-23T20:10:32.677Z",
       "date": "2026.01.08"
     },
     {
@@ -260,7 +260,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.319Z",
+      "last_crawled": "2026-10-23T20:10:32.682Z",
       "date": "2025.12.24"
     },
     {
@@ -270,7 +270,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.424Z",
+      "last_crawled": "2026-10-23T20:10:32.687Z",
       "date": "2025.12.24"
     },
     {
@@ -280,7 +280,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.501Z",
+      "last_crawled": "2026-10-23T20:10:32.692Z",
       "date": "2025.11.30"
     },
     {
@@ -290,7 +290,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.528Z",
+      "last_crawled": "2026-10-23T20:10:32.694Z",
       "date": "2025.11.29"
     },
     {
@@ -300,7 +300,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.622Z",
+      "last_crawled": "2026-10-23T20:10:32.696Z",
       "date": "2025.11.23"
     },
     {
@@ -310,7 +310,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.627Z",
+      "last_crawled": "2026-10-23T20:10:32.698Z",
       "date": "2025.11.06"
     },
     {
@@ -320,7 +320,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.647Z",
+      "last_crawled": "2026-10-23T20:10:32.700Z",
       "date": "2025.11.06"
     },
     {
@@ -330,18 +330,8 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.721Z",
+      "last_crawled": "2026-10-23T20:10:32.704Z",
       "date": "2025.10.25"
-    },
-    {
-      "notice_id": "N_034",
-      "status": "COMPLETED",
-      "matched_stop": "",
-      "notice_tc": "",
-      "notice_en_translated": "",
-      "notice_sc_translated": "",
-      "last_crawled": "2026-10-22T20:10:41.738Z",
-      "date": "2025.10.24"
     }
   ]
 }
