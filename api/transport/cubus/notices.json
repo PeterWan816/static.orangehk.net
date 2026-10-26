@@ -1,7 +1,7 @@
 {
   "type": "NoticeList",
   "version": "1.2",
-  "generated_timestamp": "2026-10-25T21:35:52+08:00",
+  "generated_timestamp": "2026-10-26T21:35:52+08:00",
   "data": [
     {
       "notice_id": "N_001",
@@ -10,7 +10,7 @@
       "notice_tc": "Temporary relocation of toll shuttle bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.075Z",
+      "last_crawled": "2026-10-26T20:10:23.974Z",
       "date": "2026.10.20"
     },
     {
@@ -20,7 +20,7 @@
       "notice_tc": "Temporary relocation of the East Loop Station (northbound) and the school bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.117Z",
+      "last_crawled": "2026-10-26T20:10:25.639Z",
       "date": "2026.09.28"
     },
     {
@@ -30,7 +30,7 @@
       "notice_tc": "Temporary relocation of toll minibus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.150Z",
+      "last_crawled": "2026-10-26T20:10:26.808Z",
       "date": "2026.09.15"
     },
     {
@@ -40,7 +40,7 @@
       "notice_tc": "Notice of Suspension of \"Employee Self-Organized Commute Bus Service\"",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.186Z",
+      "last_crawled": "2026-10-26T20:10:28.131Z",
       "date": "2026.09.04"
     },
     {
@@ -50,7 +50,7 @@
       "notice_tc": "Latest school bus service schedule",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.218Z",
+      "last_crawled": "2026-10-26T20:10:29.286Z",
       "date": "2026.09.01"
     },
     {
@@ -60,7 +60,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.220Z",
+      "last_crawled": "2026-10-26T20:10:29.353Z",
       "date": "2026.08.31"
     },
     {
@@ -70,7 +70,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.221Z",
+      "last_crawled": "2026-10-26T20:10:29.395Z",
       "date": "2026.08.29"
     },
     {
@@ -80,7 +80,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.222Z",
+      "last_crawled": "2026-10-26T20:10:29.449Z",
       "date": "2026.08.29"
     },
     {
@@ -90,7 +90,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.224Z",
+      "last_crawled": "2026-10-26T20:10:29.480Z",
       "date": "2026.08.15"
     },
     {
@@ -100,17 +100,17 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.226Z",
+      "last_crawled": "2026-10-26T20:10:29.562Z",
       "date": "2026.08.08"
     },
     {
       "notice_id": "N_011",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "Ho Sin Heng Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Heng Engineering Building Ho Sin Heng Engineering Building Bus Stop Temporary Relocation",
+      "notice_tc": "Ho Sin Hang Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Hang Engineering Building Ho Sin Hang Engineering Building Bus Stop Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.262Z",
+      "last_crawled": "2026-10-26T20:10:30.725Z",
       "date": "2026.08.03"
     },
     {
@@ -120,7 +120,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.263Z",
+      "last_crawled": "2026-10-26T20:10:30.750Z",
       "date": "2026.08.01"
     },
     {
@@ -130,7 +130,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.265Z",
+      "last_crawled": "2026-10-26T20:10:30.752Z",
       "date": "2026.07.24"
     },
     {
@@ -140,7 +140,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.267Z",
+      "last_crawled": "2026-10-26T20:10:30.755Z",
       "date": "2026.07.11"
     },
     {
@@ -150,7 +150,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.268Z",
+      "last_crawled": "2026-10-26T20:10:30.757Z",
       "date": "2026.05.30"
     },
     {
@@ -160,7 +160,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.269Z",
+      "last_crawled": "2026-10-26T20:10:30.759Z",
       "date": "2026.03.27"
     },
     {
@@ -170,7 +170,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.271Z",
+      "last_crawled": "2026-10-26T20:10:30.842Z",
       "date": "2026.02.27"
     },
     {
@@ -180,7 +180,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.272Z",
+      "last_crawled": "2026-10-26T20:10:30.902Z",
       "date": "2026.02.27"
     },
     {
@@ -190,7 +190,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.275Z",
+      "last_crawled": "2026-10-26T20:10:31.032Z",
       "date": "2026.02.06"
     },
     {
@@ -200,7 +200,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.276Z",
+      "last_crawled": "2026-10-26T20:10:31.150Z",
       "date": "2026.01.17"
     },
     {
@@ -210,7 +210,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.278Z",
+      "last_crawled": "2026-10-26T20:10:31.251Z",
       "date": "2026.01.14"
     },
     {
@@ -220,7 +220,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.279Z",
+      "last_crawled": "2026-10-26T20:10:31.259Z",
       "date": "2026.01.08"
     },
     {
@@ -230,7 +230,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.280Z",
+      "last_crawled": "2026-10-26T20:10:31.271Z",
       "date": "2025.12.24"
     },
     {
@@ -240,7 +240,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.282Z",
+      "last_crawled": "2026-10-26T20:10:31.308Z",
       "date": "2025.12.24"
     },
     {
@@ -250,7 +250,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.283Z",
+      "last_crawled": "2026-10-26T20:10:31.325Z",
       "date": "2025.11.30"
     },
     {
@@ -260,7 +260,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.284Z",
+      "last_crawled": "2026-10-26T20:10:31.461Z",
       "date": "2025.11.29"
     },
     {
@@ -270,7 +270,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.286Z",
+      "last_crawled": "2026-10-26T20:10:31.554Z",
       "date": "2025.11.23"
     },
     {
@@ -280,7 +280,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.288Z",
+      "last_crawled": "2026-10-26T20:10:31.766Z",
       "date": "2025.11.06"
     },
     {
@@ -290,7 +290,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-10-25T20:10:20.289Z",
+      "last_crawled": "2026-10-26T20:10:31.777Z",
       "date": "2025.11.06"
     }
   ]
