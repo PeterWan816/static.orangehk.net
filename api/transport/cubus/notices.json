@@ -1,7 +1,7 @@
 {
   "type": "NoticeList",
   "version": "1.2",
-  "generated_timestamp": "2026-11-05T21:35:52+08:00",
+  "generated_timestamp": "2026-11-06T21:35:52+08:00",
   "data": [
     {
       "notice_id": "N_001",
@@ -10,7 +10,7 @@
       "notice_tc": "Xin Ya Fang Station Temporary Relocation; School Bus Stop Temporary Relocation - Xin Ya Fang Station Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:21.558Z",
+      "last_crawled": "2026-11-06T20:10:21.667Z",
       "date": "2026.11.08"
     },
     {
@@ -20,7 +20,7 @@
       "notice_tc": "The paid shuttle bus stop is temporarily closed.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.705Z",
+      "last_crawled": "2026-11-06T20:10:22.836Z",
       "date": "2026.11.08"
     },
     {
@@ -30,7 +30,7 @@
       "notice_tc": "Temporary relocation of toll shuttle bus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.740Z",
+      "last_crawled": "2026-11-06T20:10:23.939Z",
       "date": "2026.10.20"
     },
     {
@@ -40,7 +40,7 @@
       "notice_tc": "Temporary relocation of toll minibus stop.",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.772Z",
+      "last_crawled": "2026-11-06T20:10:25.064Z",
       "date": "2026.09.15"
     },
     {
@@ -50,7 +50,7 @@
       "notice_tc": "Notice of Suspension of \"Employee Self-Organized Commute Bus Service\"",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.809Z",
+      "last_crawled": "2026-11-06T20:10:26.162Z",
       "date": "2026.09.04"
     },
     {
@@ -60,7 +60,7 @@
       "notice_tc": "Latest school bus service schedule",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.843Z",
+      "last_crawled": "2026-11-06T20:10:27.258Z",
       "date": "2026.09.01"
     },
     {
@@ -70,7 +70,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.845Z",
+      "last_crawled": "2026-11-06T20:10:27.262Z",
       "date": "2026.08.31"
     },
     {
@@ -80,7 +80,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.846Z",
+      "last_crawled": "2026-11-06T20:10:27.273Z",
       "date": "2026.08.29"
     },
     {
@@ -90,7 +90,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.847Z",
+      "last_crawled": "2026-11-06T20:10:27.297Z",
       "date": "2026.08.29"
     },
     {
@@ -100,7 +100,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.849Z",
+      "last_crawled": "2026-11-06T20:10:27.302Z",
       "date": "2026.08.15"
     },
     {
@@ -110,17 +110,17 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.850Z",
+      "last_crawled": "2026-11-06T20:10:27.304Z",
       "date": "2026.08.08"
     },
     {
       "notice_id": "N_012",
       "status": "ACTIVE",
       "matched_stop": "",
-      "notice_tc": "Ho Sin Heng Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Heng Engineering Building Ho Sin Heng Engineering Building Bus Stop Temporary Relocation",
+      "notice_tc": "Ho Sin Hang Engineering Building Bus Stop Relocation - Temporary Relocation of Toll Minibus Stop – Ho Sin Hang Engineering Building Ho Sin Hang Engineering Building Bus Stop Temporary Relocation",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.882Z",
+      "last_crawled": "2026-11-06T20:10:28.445Z",
       "date": "2026.08.03"
     },
     {
@@ -130,7 +130,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.883Z",
+      "last_crawled": "2026-11-06T20:10:28.450Z",
       "date": "2026.08.01"
     },
     {
@@ -140,7 +140,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.884Z",
+      "last_crawled": "2026-11-06T20:10:28.465Z",
       "date": "2026.07.24"
     },
     {
@@ -150,7 +150,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.884Z",
+      "last_crawled": "2026-11-06T20:10:28.468Z",
       "date": "2026.07.11"
     },
     {
@@ -160,7 +160,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.885Z",
+      "last_crawled": "2026-11-06T20:10:28.506Z",
       "date": "2026.05.30"
     },
     {
@@ -170,7 +170,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.886Z",
+      "last_crawled": "2026-11-06T20:10:28.509Z",
       "date": "2026.03.27"
     },
     {
@@ -180,7 +180,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.887Z",
+      "last_crawled": "2026-11-06T20:10:28.526Z",
       "date": "2026.02.27"
     },
     {
@@ -190,7 +190,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.889Z",
+      "last_crawled": "2026-11-06T20:10:28.531Z",
       "date": "2026.02.27"
     },
     {
@@ -200,7 +200,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.891Z",
+      "last_crawled": "2026-11-06T20:10:28.540Z",
       "date": "2026.02.06"
     },
     {
@@ -210,7 +210,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.892Z",
+      "last_crawled": "2026-11-06T20:10:28.614Z",
       "date": "2026.01.17"
     },
     {
@@ -220,7 +220,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.894Z",
+      "last_crawled": "2026-11-06T20:10:28.617Z",
       "date": "2026.01.14"
     },
     {
@@ -230,7 +230,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.895Z",
+      "last_crawled": "2026-11-06T20:10:28.621Z",
       "date": "2026.01.08"
     },
     {
@@ -240,7 +240,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.896Z",
+      "last_crawled": "2026-11-06T20:10:28.662Z",
       "date": "2025.12.24"
     },
     {
@@ -250,7 +250,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.897Z",
+      "last_crawled": "2026-11-06T20:10:28.667Z",
       "date": "2025.12.24"
     },
     {
@@ -260,7 +260,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.898Z",
+      "last_crawled": "2026-11-06T20:10:28.678Z",
       "date": "2025.11.30"
     },
     {
@@ -270,7 +270,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.899Z",
+      "last_crawled": "2026-11-06T20:10:28.723Z",
       "date": "2025.11.29"
     },
     {
@@ -280,7 +280,7 @@
       "notice_tc": "",
       "notice_en_translated": "",
       "notice_sc_translated": "",
-      "last_crawled": "2026-11-05T20:10:22.900Z",
+      "last_crawled": "2026-11-06T20:10:28.739Z",
       "date": "2025.11.23"
     }
   ]
